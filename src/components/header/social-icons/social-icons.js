@@ -7,6 +7,8 @@ import {
   TfiGithub,
 } from "react-icons/tfi";
 import "./social-icons.css";
+
+
 const SocialIcons = () => {
   return (
     <div className="social-icons">
@@ -40,4 +42,5 @@ const SocialIcons = () => {
     </div>
   );
 };
+
 export default SocialIcons;

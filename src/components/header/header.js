@@ -2,7 +2,7 @@ import React from "react";
 import Avatar from "./avatar/avatar";
 import MobileMenu from "./mobile-menu/mobile-menu";
 import "./header.css";
-import UserName from "./user-name/userName";
+import Name from "./name/name";
 import SocialIcons from "./social-icons/social-icons";
 import MainNavbar from "./main-navbar/main-navbar";
 import Copyright from "./copyright/copyright";
@@ -12,10 +12,10 @@ const Header = () => {
     <header className="header pull-left">
       <MobileMenu />
       <Avatar />
-      <UserName />
-      <SocialIcons />
-      <MainNavbar />
-      <Copyright />
+      <Name/>
+      <SocialIcons/>
+      <MainNavbar/>
+      <Copyright/>
     </header>
   );
 };
